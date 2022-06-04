@@ -45,6 +45,8 @@ public class AccountManager {
                             System.out.println("What's your birthday? mm/dd/yy");
                             String newBirthday = scanner.next();
 
+
+                            System.out.println("Thanks for that info! I've stored it all in your new account!");
                             userAccounts.addAccountToFile(newUsername,newPassword,newFirstName, newLastName, newBirthday);
                             break;
                             
@@ -196,8 +198,3 @@ class AllUserAccounts{
             }
     }
 }
-
-
-
-
-
